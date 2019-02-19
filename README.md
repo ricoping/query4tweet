@@ -1,7 +1,7 @@
 # query4tweet
 You can search in twitter without twitter API and get result as python object.
 
-# How to use
+## How to use
 <p>
 You put a query or hash tag into *Query4Tsuiit* instance and set mode that decides whether you get HTML source from search result page as dynamic web page or static web page.(The mode is usually set to be *dynamic*)
 </p>
@@ -11,7 +11,7 @@ You can get *timelines* of people who tweet about the query you put into by *tim
 <p>
 You can also get *screen names* of them by *timeline_IDs*.
 </p>
-# Example
+## Example
 
 ~~~
 import query4tsuiit
@@ -21,7 +21,7 @@ print(twi_query.timelines) #1
 print(twi_query.timeline_IDs) #2
 ~~~
 
-*#1
+## \#1
 ~~~
  {'text_body': '遣都湖に沈んだ者たちに告ぐ。今すぐNetflixに入り林遣都の「火花」全10話をみるんだ。一ヶ月無料だから見上げられる。私は本日1日で全部見た。「生きる」という物哀しくも美しい営みを静謐に描く傑作。\n'
                '\n'
@@ -77,7 +77,7 @@ print(twi_query.timeline_IDs) #2
 
 ~~~
 
-*#2
+## \#2
 ~~~
 [
  'amn0617',
