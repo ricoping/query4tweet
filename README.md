@@ -11,8 +11,8 @@ You can get *timelines* of people who tweet about the query you put into by *tim
 <p>
 You can also get *screen names* of them by *timeline_IDs*.
 </p>
-## Example
 
+## Example
 ~~~
 import query4tsuiit
 twi_query = query4tsuiit.Query4Tsuiit("#花火", "dynamic")
