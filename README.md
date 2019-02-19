@@ -6,10 +6,10 @@ You can search in twitter without twitter API and get result as python object.
 You put a query or hash tag into <i>Query4Tsuiit</i> instance and set mode that decides whether you get HTML source from search result page as dynamic web page or static web page.(The mode is usually set to be <i>dynamic</i>)
 </p>
 <p>
-You can get *timelines* of people who tweet about the query you put into by <i>timelines</i>.
+ You can get <i>timelines</i> of people who tweet about the query you put into by <i>timelines</i>.
 </p>
 <p>
-You can also get *screen names* of them by <i>timeline_IDs</i>.
+You can also get <i>screen names</i> of them by <i>timeline_IDs</i>.
 </p>
 
 ## Example
